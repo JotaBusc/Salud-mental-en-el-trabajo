@@ -156,11 +156,7 @@ glimpse(df_mental_health)
 
 #1.1. Subset: Características de la persona (Demografía y Background) -----
 
-#Se normaliza la variable 'genero'
-#Se eliminan los registros que esten fuera del rango etario 18 < 60 y los N/A
 
-# Agregamos la columna 'independiente' al subset.
-df_demografia$independiente <- columna_independiente 
 # Ideal para entender el perfil sociodemográfico de la muestra 
 df_demografia <- df_mental_health %>%
   select(
@@ -172,7 +168,7 @@ df_demografia <- df_mental_health %>%
     pais_trabajo, 
     estado_trabajo_us
   )
-#Data Wrangling
+#Data Wrangling - se normaliza la variable genero.
 df_demografia %>%
   count(genero) %>%
   arrange(desc(n)) %>%
@@ -290,19 +286,8 @@ df_demografia$independiente <- columna_independiente
 df_estado_clinico$independiente <- columna_independiente
 df_estigma_carrera$independiente <- columna_independiente
 
-#1.4  Subset: Comunicacion ----
-df_comodidad <- df_mental_health %>%
-  select(
-    edad, 
-    # Usá los nombres exactos de tu base original aquí:
-    comodidad_companeros, # Si en el original es 'coworkers', poné: comodidad_companeros = coworkers
-    comodidad_supervisor  # Si en el original es 'supervisor', poné: comodidad_supervisor = supervisor
-  ) %>%
-  mutate(edad = as.numeric(edad)) %>%
-  filter(edad >= 18 & edad <= 60) %>%
-  filter(!is.na(edad))
 
-#2.1  Unimos los 4 subsets en uno solo llamado df_master ----
+#2.1  Unimos los 3 subsets en uno solo llamado df_master ----
 # Usamos las columnas comunes para asegurar que las filas encajen perfecto
 df_master <- df_demografia %>%
   bind_cols(
@@ -329,10 +314,7 @@ nrow(df_master)
 # 3. Un vistazo rápido para confirmar que las variables están ahí
 glimpse(df_master)
 
-df_master <- df_master %>%
-  bind_cols(
-    df_comodidad %>% select(-edad)
-  )
+
 
 # Recalculamos n_trastornos basándonos SOLO en tus 4 variables normalizadas
 df_master <- df_master %>%
