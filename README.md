@@ -1,4 +1,3 @@
-Análisis Exploratorio de Afecciones Mentales en el Trabajo
 Mental Health in Tech: Investigacion exploratoria centrada en la salud mental en el trabajo
 
 Esta simulacion analiza la prevalencia y los determinantes de la salud mental (específicamente la depresión) en trabajadores del sector IT, utilizando el dataset de OSMI. El objetivo es transformar datos crudos en insights accionables para la gestión de Recursos Humanos.
@@ -16,8 +15,6 @@ Hallazgos Clave (hasta el momento)
 
     Brecha de Género: Se confirmó una asociación significativa (p<0.001) entre el género y la depresión. Las mujeres presentan una mayor carga diagnóstica.
 	
-    
-    
 
     Predictores de Comportamiento: La búsqueda de tratamiento resultó ser un predictor más robusto de salud mental que el diagnóstico profesional formal, sugiriendo que la proactividad del empleado es un síntoma crítico.
 
@@ -38,3 +35,12 @@ El análisis permite al area de Recursos Humanos:
     Validar que la salud mental es un fenómeno sistémico del sector y no derivado únicamente del tipo de contrato (independiente vs en relacion de dependencia)
 
 Por otra parte, la asociacion entre genero y ansiedad presentó un (p>0.05) demostrando que no existe una asociacion significativa entre estas variables.
+
+ANALISIS DESCRIPTIVO DE LA MUESTRA
+
+
+
+
+
+
+![Matriz de Asociación de Ansiedad](C:\Users\jcbus\Desktop\GITJUB\mental_health\charts\Edad - density)
