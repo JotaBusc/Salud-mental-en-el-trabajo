@@ -43,4 +43,4 @@ ANALISIS DESCRIPTIVO DE LA MUESTRA
 
 
 
-![Matriz de Asociación de Ansiedad](C:\Users\jcbus\Desktop\GITJUB\mental_health\charts\Edad - density)
+![Matriz de Asociación de Ansiedad](C:\Users\jcbus\Desktop\GITJUB\mental_health\charts\Edad-density)
