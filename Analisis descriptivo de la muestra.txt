@@ -1,7 +1,5 @@
 ANALISIS DESCRIPTIVO DE LA MUESTRA
 
-
-
 Distribucion de Edades
 
 DASHBOARD - > https://jotabusconi.shinyapps.io/mental_health/
