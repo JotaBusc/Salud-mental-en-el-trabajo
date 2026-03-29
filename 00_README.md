@@ -11,12 +11,18 @@ Tecnologías y Metodologías
 
     Visualización: Mapas de calor (Heatmaps) de asociación y Boxplots de comorbilidad normalizados.
 
-Hallazgos Clave (hasta el momento)
+Hallazgos Clave 
 
+<<<<<<< HEAD
     Brecha de Género: Se confirmó una asociación significativa (p<0.001) entre el género y la depresión. Las mujeres presentan una mayor carga diagnóstica.
 	 Dashboard -> https://jotabusconi.shinyapps.io/inferencia_chi2/
+=======
+    Brecha de Género: Se confirmó una asociación significativa (p<0.001) entre el género y la depresión. 
+	Las mujeres presentan una mayor carga diagnóstica.
+	
+>>>>>>> 1df9c7d2d9eff38cbad386faf1e0070cbe1a3d81
 
-    Predictores de Comportamiento: La búsqueda de tratamiento resultó ser un predictor más robusto de salud mental que el diagnóstico profesional formal, sugiriendo que la proactividad del empleado es un síntoma crítico.
+    Predictores de Comportamiento: La búsqueda de tratamiento resultó ser un predictor más robusto de salud mental que el diagnóstico profesional formal, sugiriendo que la   proactividad del empleado es un síntoma crítico.
 
                  Variable	Coeficiente (Estimate)	P-value	Significancia
                  Búsqueda de Tratamiento	1.15	0.00035	Alta ()*
@@ -32,7 +38,7 @@ El análisis permite al area de Recursos Humanos:
 
     Diseñar programas de asistencia con foco en la depresion y con perspectiva de género.
 
-    Validar que la salud mental es un fenómeno sistémico del sector y no derivado únicamente del tipo de contrato (independiente vs en relacion de dependencia)
+   
 
 Por otra parte, la asociacion entre genero y ansiedad presentó un (p>0.05) demostrando que no existe una asociacion significativa entre estas variables.
 
@@ -59,7 +65,7 @@ La muestra se caracteriza por una marcada prevalencia del género masculino (n>1
 
 <img src="boxplotgeneroedad.png" alt="boxplot edades genero" width="600">
 
-Estado Clinico - descripcion de la muestra
+ESTADO CLINICO - descripcion de la muestra
 
 
 DASHBOARD -> https://jotabusconi.shinyapps.io/mental_health-frecuencia-diagnosticos/
@@ -67,11 +73,11 @@ DASHBOARD -> https://jotabusconi.shinyapps.io/mental_health-frecuencia-diagnosti
 La muestra presenta una alta prevalencia de trastornos de salud mental, con una concentración predominante de casos de depresión (407) y ansiedad (341), que se posicionan como las condiciones más reportadas. En una escala menor, se observa la incidencia de TDAH (120) y estrés postraumático (70). Al desglosar por género, el grupo de hombres lidera la frecuencia absoluta en todas las categorías (destacando 242 casos de depresión y 212 de ansiedad), una tendencia que guarda relación directa con el volumen mayoritario de participantes masculinos en la muestra total, seguido por el grupo de mujeres y, en proporciones mínimas, por identidades no-binarias y no especificadas.
 
 	                 trastorno
-	genero                 ansiedad depresion estres pt tdah
-  	Hombre               212       242        36   77
-  	Mujer                114       144        28   39
-  	No-binario            13        16         4    2
-  	No especificado        2         5         2    2
+	genero               ansiedad  depresion  estres pt tdah
+  	Hombre               212       242        36     77
+  	Mujer                114       144        28     39
+  	No-binario            13        16         4     2
+  	No especificado        2         5         2     2
 
 
 
