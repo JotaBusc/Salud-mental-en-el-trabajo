@@ -39,17 +39,16 @@ Esto indica que la conducta de pedir ayuda es el síntoma más sensible y el pre
 
 El análisis permite al area de Recursos Humanos:
 
-	El hecho de que la Búsqueda de Tratamiento (p<0.001) supere al Diagnóstico Profesional como predictor de depresión permite al área de Capital Humano evolucionar hacia un modelo de gestión preventiva:
+El hecho de que la Búsqueda de Tratamiento (p<0.001) supere al Diagnóstico Profesional como predictor de depresión permite al área de Capital Humano evolucionar hacia un modelo de gestión preventiva:
+Identificación de la "Demanda Oculta": Los datos sugieren que existe un segmento de la población que reconoce su malestar y actúa en consecuencia antes de obtener un diagnóstico formal. RR.HH. debe dejar de considerar el diagnóstico como la "puerta de entrada" para el apoyo y empezar a valorar la intención de búsqueda de ayuda como el indicador crítico de intervención.
 
-        Identificación de la "Demanda Oculta": Los datos sugieren que existe un segmento de la población que reconoce su malestar y actúa en consecuencia antes de obtener un diagnóstico formal. RR.HH. debe dejar de considerar el diagnóstico como la "puerta de entrada" para el apoyo y empezar a valorar la intención de búsqueda de ayuda como el indicador crítico de intervención.
+Reducción de Barreras Culturales: Dado que la proactividad del empleado es el síntoma más sensible, la estrategia debe centrarse en la Alfabetización en Salud Mental (Mental Health Literacy). Si el empleado no se siente seguro para buscar ayuda (por estigma o miedo a represalias), perdemos el predictor más potente para gestionar el riesgo psicosocial.
 
-        Reducción de Barreras Culturales: Dado que la proactividad del empleado es el síntoma más sensible, la estrategia debe centrarse en la Alfabetización en Salud Mental (Mental Health Literacy). Si el empleado no se siente seguro para buscar ayuda (por estigma o miedo a represalias), perdemos el predictor más potente para gestionar el riesgo psicosocial.
+Optimización de Programas de Asistencia al Empleado (EAP): En lugar de políticas reactivas basadas en licencias médicas, el foco debe estar en facilitar canales de consulta rápida. El análisis de regresión muestra que cuando un empleado "levanta la mano", la probabilidad de que exista un cuadro depresivo subyacente es estadísticamente altísima, independientemente de si ya pasó por un psiquiatra o no.
 
-        Optimización de Programas de Asistencia al Empleado (EAP): En lugar de políticas reactivas basadas en licencias médicas, el foco debe estar en facilitar canales de consulta rápida. El análisis de regresión muestra que cuando un empleado "levanta la mano", la probabilidad de que exista un cuadro depresivo subyacente es estadísticamente altísima, independientemente de si ya pasó por un psiquiatra o no.
+Sustento para Políticas de Género: Al confirmar que las mujeres presentan una mayor carga diagnóstica y que su comportamiento de búsqueda es un predictor robusto, RR.HH. puede justificar la implementación de programas de bienestar con perspectiva de género, enfocados en la detección temprana y la flexibilidad laboral.
 
-        Sustento para Políticas de Género: Al confirmar que las mujeres presentan una mayor carga diagnóstica y que su comportamiento de búsqueda es un predictor robusto, RR.HH. puede justificar la implementación de programas de bienestar con perspectiva de género, enfocados en la detección temprana y la flexibilidad laboral.
-
-        Conclusión Estratégica: No necesitamos esperar el diagnóstico para saber que hay un problema; la conducta de búsqueda de ayuda ya nos está dando la señal de alerta con una confianza estadística del 99.9%.
+Conclusión Estratégica: No necesitamos esperar el diagnóstico para saber que hay un problema; la conducta de búsqueda de ayuda ya nos está dando la señal de alerta con una confianza estadística del 99.9%.
 
    
 
