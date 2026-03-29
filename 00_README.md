@@ -40,4 +40,4 @@ ANALISIS DESCRIPTIVO DE LA MUESTRA
 
 
 
-![Matriz de Asociación de Ansiedad](Edad-density.png)
+!(Edad-density.png)
