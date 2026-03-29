@@ -50,4 +50,4 @@ Frecuencias absolutas por genero
 
 La composición de la muestra por género presenta una distribución que permite identificar la representatividad de cada categoría dentro del estudio a través de su frecuencia absoluta. El gráfico de barras visualiza el volumen de participantes segmentado por identidad de género, destacando la proporción de hombres, mujeres y otras identidades, lo que garantiza la transparencia sobre la diversidad de la base de datos analizada. La utilización de una codificación cromática diferenciada facilita la distinción inmediata de los grupos, mientras que la inclusión de etiquetas de conteo directo sobre cada barra asegura una interpretación precisa de las magnitudes sin necesidad de recurrir al eje vertical.
 
-<img src="GENERO" alt="frec absolutas genero" width="600">
+<img src="GENERO.png" alt="frec absolutas genero" width="600">
