@@ -67,11 +67,11 @@ DASHBOARD -> https://jotabusconi.shinyapps.io/mental_health-frecuencia-diagnosti
 La muestra presenta una alta prevalencia de trastornos de salud mental, con una concentración predominante de casos de depresión (407) y ansiedad (341), que se posicionan como las condiciones más reportadas. En una escala menor, se observa la incidencia de TDAH (120) y estrés postraumático (70). Al desglosar por género, el grupo de hombres lidera la frecuencia absoluta en todas las categorías (destacando 242 casos de depresión y 212 de ansiedad), una tendencia que guarda relación directa con el volumen mayoritario de participantes masculinos en la muestra total, seguido por el grupo de mujeres y, en proporciones mínimas, por identidades no-binarias y no especificadas.
 
 	                 trastorno
-	genero                 ansiedad depresion estres pt tdah
-  	Hombre               212       242        36   77
-  	Mujer                114       144        28   39
-  	No-binario            13        16         4    2
-  	No especificado        2         5         2    2
+	genero               ansiedad  depresion  estres pt tdah
+  	Hombre               212       242        36     77
+  	Mujer                114       144        28     39
+  	No-binario            13        16         4     2
+  	No especificado        2         5         2     2
 
 
 
