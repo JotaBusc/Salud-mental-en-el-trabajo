@@ -58,3 +58,9 @@ La composición de la muestra por género presenta una distribución que permite
 La muestra se caracteriza por una marcada prevalencia del género masculino (n>1000) y una estructura etaria joven-adulta concentrada principalmente entre los 25 y 35 años, con una mediana transversal de 33 años. Si bien la mayoría de los perfiles se desempeñan bajo relación de dependencia, el análisis de dispersión revela que la modalidad de trabajo independiente se adopta de forma heterogénea en todo el espectro generacional, sin estar condicionada estrictamente por el seniority o la edad avanzada. Aunque los grupos mantienen tendencias centrales similares, el segmento masculino presenta una mayor variabilidad y presencia de valores atípicos en edades superiores (50-60 años) en comparación con los rangos más compactos observados en identidades femeninas y no-binarias.
 
 <img src="boxplotgeneroedad.png" alt="boxplot edades genero" width="600">
+
+Estado Clinico - descripcion de la muestra
+
+
+
+<img src="frecuenciapadecimientosreportados.png" alt="boxplot edades genero" width="600">
