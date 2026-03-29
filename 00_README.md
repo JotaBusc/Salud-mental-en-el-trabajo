@@ -39,5 +39,4 @@ Por otra parte, la asociacion entre genero y ansiedad presentó un (p>0.05) demo
 ANALISIS DESCRIPTIVO DE LA MUESTRA
 
 
-
-!(Edad-density.png)
+![Matriz de Asociación de Ansiedad](Edad-density.png)
