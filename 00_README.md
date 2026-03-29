@@ -61,6 +61,14 @@ La muestra se caracteriza por una marcada prevalencia del género masculino (n>1
 
 Estado Clinico - descripcion de la muestra
 
+DASHBOARD -> https://jotabusconi.shinyapps.io/mental_health-frecuencia-diagnosticos/
 
 
-<img src="frecuenciapadecimientosreportados.png" alt="boxplot edades genero" width="600">
+
+
+
+
+
+
+
+<img src="indicecormobilidadporg.png" alt="boxplot edades genero" width="600">
