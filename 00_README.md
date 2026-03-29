@@ -38,8 +38,16 @@ Por otra parte, la asociacion entre genero y ansiedad presentó un (p>0.05) demo
 
 ANALISIS DESCRIPTIVO DE LA MUESTRA
 
+Distribucion de Edades
+
 La distribución de la muestra se caracteriza por una marcada concentración en el rango de los 25 a 35 años, donde la densidad alcanza su punto máximo, indicando que el perfil predominante es el de adultos jóvenes. 
 El gráfico presenta una asimetría positiva o sesgo a la derecha, evidenciada por una "cola" que se extiende hacia las edades más avanzadas, lo que muestra una frecuencia decreciente a medida que aumenta la edad de los participantes. 
 A través del histograma y la curva de densidad suavizada, se observa que, si bien la base de la muestra es joven, existe una dispersión que abarca hasta los 60 años, aunque con una representatividad significativamente menor en esos estratos superiores.
 
 <img src="edaddensity.png" alt="Distribución de Edad" width="600">
+
+Frecuencias absolutas por genero
+
+La composición de la muestra por género presenta una distribución que permite identificar la representatividad de cada categoría dentro del estudio a través de su frecuencia absoluta. El gráfico de barras visualiza el volumen de participantes segmentado por identidad de género, destacando la proporción de hombres, mujeres y otras identidades, lo que garantiza la transparencia sobre la diversidad de la base de datos analizada. La utilización de una codificación cromática diferenciada facilita la distinción inmediata de los grupos, mientras que la inclusión de etiquetas de conteo directo sobre cada barra asegura una interpretación precisa de las magnitudes sin necesidad de recurrir al eje vertical.
+
+<img src="GENERO" alt="frec absolutas genero" width="600">
