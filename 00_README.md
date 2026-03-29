@@ -38,6 +38,8 @@ Por otra parte, la asociacion entre genero y ansiedad presentó un (p>0.05) demo
 
 ANALISIS DESCRIPTIVO DE LA MUESTRA
 
+DASHBOARD - > https://jotabusconi.shinyapps.io/mental_health/
+
 Distribucion de Edades
 
 La distribución de la muestra se caracteriza por una marcada concentración en el rango de los 25 a 35 años, donde la densidad alcanza su punto máximo, indicando que el perfil predominante es el de adultos jóvenes. 
