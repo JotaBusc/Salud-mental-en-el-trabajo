@@ -13,14 +13,9 @@ Tecnologías y Metodologías
 
 Hallazgos Clave 
 
-<<<<<<< HEAD
     Brecha de Género: Se confirmó una asociación significativa (p<0.001) entre el género y la depresión. Las mujeres presentan una mayor carga diagnóstica.
 	 Dashboard -> https://jotabusconi.shinyapps.io/inferencia_chi2/
-=======
-    Brecha de Género: Se confirmó una asociación significativa (p<0.001) entre el género y la depresión. 
-	Las mujeres presentan una mayor carga diagnóstica.
 	
->>>>>>> 1df9c7d2d9eff38cbad386faf1e0070cbe1a3d81
 
     Predictores de Comportamiento: La búsqueda de tratamiento resultó ser un predictor más robusto de salud mental que el diagnóstico profesional formal, sugiriendo que la   proactividad del empleado es un síntoma crítico.
 
