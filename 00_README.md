@@ -39,6 +39,8 @@ Esto indica que la conducta de pedir ayuda es el síntoma más sensible y el pre
 
 El análisis permite al area de Recursos Humanos:
 
+Identificación de Grupos Vulnerables: Los datos indican que las mujeres dentro de la organización presentan una carga diagnóstica significativamente mayor. Esto permite a RR.HH. dejar de aplicar políticas de bienestar "genéricas" y empezar a diseñar intervenciones de Salud Mental con Perspectiva de Género, enfocadas en los factores de riesgo que afectan desproporcionadamente a este grupo (como la doble carga horaria o el techo de cristal).
+
 El hecho de que la Búsqueda de Tratamiento (p<0.001) supere al Diagnóstico Profesional como predictor de depresión permite al área de Capital Humano evolucionar hacia un modelo de gestión preventiva:
 Identificación de la "Demanda Oculta": Los datos sugieren que existe un segmento de la población que reconoce su malestar y actúa en consecuencia antes de obtener un diagnóstico formal. RR.HH. debe dejar de considerar el diagnóstico como la "puerta de entrada" para el apoyo y empezar a valorar la intención de búsqueda de ayuda como el indicador crítico de intervención.
 
