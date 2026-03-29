@@ -40,3 +40,4 @@ ANALISIS DESCRIPTIVO DE LA MUESTRA
 
 
 ![Edad Density](edaddensity.png)
+<img src="edaddensity.png" alt="Distribución de Edad" width="600">
