@@ -59,7 +59,7 @@ La muestra se caracteriza por una marcada prevalencia del género masculino (n>1
 
 <img src="boxplotgeneroedad.png" alt="boxplot edades genero" width="600">
 
-Estado Clinico - descripcion de la muestra
+ESTADO CLINICO - descripcion de la muestra
 
 
 DASHBOARD -> https://jotabusconi.shinyapps.io/mental_health-frecuencia-diagnosticos/
