@@ -11,12 +11,12 @@ Tecnologías y Metodologías
 
     Visualización: Mapas de calor (Heatmaps) de asociación y Boxplots de comorbilidad normalizados.
 
-Hallazgos Clave (hasta el momento)
+Hallazgos Clave 
 
     Brecha de Género: Se confirmó una asociación significativa (p<0.001) entre el género y la depresión. Las mujeres presentan una mayor carga diagnóstica.
 	
 
-    Predictores de Comportamiento: La búsqueda de tratamiento resultó ser un predictor más robusto de salud mental que el diagnóstico profesional formal, sugiriendo que la proactividad del empleado es un síntoma crítico.
+    Predictores de Comportamiento: La búsqueda de tratamiento resultó ser un predictor más robusto de salud mental que el diagnóstico profesional formal, sugiriendo que la   proactividad del empleado es un síntoma crítico.
 
                  Variable	Coeficiente (Estimate)	P-value	Significancia
                  Búsqueda de Tratamiento	1.15	0.00035	Alta ()*
@@ -32,7 +32,7 @@ El análisis permite al area de Recursos Humanos:
 
     Diseñar programas de asistencia con foco en la depresion y con perspectiva de género.
 
-    Validar que la salud mental es un fenómeno sistémico del sector y no derivado únicamente del tipo de contrato (independiente vs en relacion de dependencia)
+   
 
 Por otra parte, la asociacion entre genero y ansiedad presentó un (p>0.05) demostrando que no existe una asociacion significativa entre estas variables.
 
