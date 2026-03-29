@@ -1,0 +1,35 @@
+# ANALISIS DESCRIPTIVO DE LA MUESTRA
+
+### 📊 Distribucion de Edades
+**Acceso al Dashboard:** [https://jotabusconi.shinyapps.io/mental_health/](https://jotabusconi.shinyapps.io/mental_health/)
+
+La distribución de la muestra se caracteriza por una marcada concentración en el rango de los **25 a 35 años**, donde la densidad alcanza su punto máximo, indicando que el perfil predominante es el de adultos jóvenes. El gráfico presenta una asimetría positiva o sesgo a la derecha, evidenciada por una "cola" que se extiende hacia las edades más avanzadas, lo que muestra una frecuencia decreciente a medida que aumenta la edad de los participantes. 
+
+A través del histograma y la curva de densidad suavizada, se observa que, si bien la base de la muestra es joven, existe una dispersión que abarca hasta los 60 años, aunque con una representatividad significativamente menor en esos estratos superiores.
+
+---
+
+### 👥 Frecuencias absolutas por genero
+**Acceso al Dashboard:** [https://jotabusconi.shinyapps.io/mental_health/](https://jotabusconi.shinyapps.io/mental_health/)
+
+La composición de la muestra por género presenta una distribución que permite identificar la representatividad de cada categoría dentro del estudio a través de su frecuencia absoluta. El gráfico de barras visualiza el volumen de participantes segmentado por identidad de género, destacando la proporción de hombres, mujeres y otras identidades. 
+
+La muestra se caracteriza por una marcada prevalencia del **género masculino (n>1000)** y una estructura etaria joven-adulta concentrada principalmente entre los 25 y 35 años, con una **mediana transversal de 33 años**. Si bien la mayoría de los perfiles se desempeñan bajo relación de dependencia, el análisis de dispersión revela que la modalidad de trabajo independiente se adopta de forma heterogénea en todo el espectro generacional. El segmento masculino presenta una mayor variabilidad y presencia de valores atípicos en edades superiores (50-60 años) en comparación con los rangos más compactos observados en identidades femeninas y no-binarias.
+
+---
+
+### 🏥 ESTADO CLINICO - Descripcion de la muestra
+**Acceso al Dashboard:** [https://jotabusconi.shinyapps.io/mental_health-frecuencia-diagnosticos/](https://jotabusconi.shinyapps.io/mental_health-frecuencia-diagnosticos/)
+
+La muestra presenta una alta prevalencia de trastornos de salud mental, con una concentración predominante de casos de **depresión (407)** y **ansiedad (341)**. En una escala menor, se observa la incidencia de TDAH (120) y estrés postraumático (70).
+
+#### Tabla de Frecuencias por Género y Trastorno:
+
+| Genero | Ansiedad | Depresion | Estres PT | TDAH |
+| :--- | :---: | :---: | :---: | :---: |
+| **Hombre** | 212 | 242 | 36 | 77 |
+| **Mujer** | 114 | 144 | 28 | 39 |
+| **No-binario** | 13 | 16 | 4 | 2 |
+| **No especificado** | 2 | 5 | 2 | 2 |
+
+*Nota: La tendencia de liderazgo en frecuencia absoluta del grupo masculino guarda relación directa con el volumen mayoritario de participantes de dicho género en la muestra total.*
