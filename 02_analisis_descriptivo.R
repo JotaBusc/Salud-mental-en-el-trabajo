@@ -1,24 +1,46 @@
 #ANALISIS DESCRIPTIVO
 
-#Analisis descriptivo de la muestra EDAD y GENERO ----
-#HISTOGRAMA EDAD
+# ANALISIS DESCRIPTIVO: DISTRIBUCIÓN DE EDAD POR GÉNERO
 ggplot(df_master, aes(x = edad)) +
+  # Histograma con densidad
   geom_histogram(aes(y = ..density..), bins = 20, 
                  fill = "steelblue", color = "white", alpha = 0.7) +
-  geom_density(color = "blue", size = 1, linetype = "dashed")
+  geom_density(color = "darkblue", size = 1) +
+  # Títulos y etiquetas profesionales
+  labs(
+    title = "Distribución de Edad de la Muestra",
+    subtitle = "Análisis de densidad y frecuencia (n = 1417)",
+    x = "Edad (años)",
+    y = "Densidad",
+    caption = "Fuente: Elaboración propia basada en datos de Salud Mental 2026"
+  ) +
+  # Un tema más limpio para que resalten los datos
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.subtitle = element_text(color = "darkgrey")
+  )
 
 #FRECUENCIAS ABSOLUTAS  GENERO 
 ggplot(df_master, aes(x = genero_norm, fill = genero_norm)) +
   geom_bar() +
-  # Agregamos los números. vjust = 1.5 lo mete un poco adentro de la barra
-  stat_count(geom = "text", aes(label = ..count..), 
-             vjust = -0.2, color = "black", fontface = "bold", size = 4) +
-  scale_fill_brewer(palette = "Set2") +
+  stat_count(geom = "text", aes(label = after_stat(count)), 
+             vjust = -0.3, color = "black", fontface = "bold", size = 4) +
+  scale_fill_manual(values = c(
+    "Hombre" = "#87CEEB",      
+    "Mujer" = "#FFC0CB",      
+    "No-binario" = "#BA55D3",  
+    "No especificado" = "#D3D3D3"        
+  )) +
   labs(title = "Composición por Género (Frecuencia Absoluta)",
-       subtitle = "N de cada categoría en la muestra",
+       subtitle = "Conteo de cada categoría en la muestra",
        x = "Género", y = "Cantidad de personas") +
   theme_minimal() +
-  theme(legend.position = "none")
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold"),
+    panel.grid.major.x = element_blank() # Limpia el fondo para que se vea más prolijo
+  )
 
 # Análisis del gráfico: Distribución de Edad por Género
 # 1. Tendencia Central (Medianas y Medias):
@@ -45,18 +67,30 @@ ggplot(df_master, aes(x = genero_norm, fill = genero_norm)) +
 #   en esta visualización.
 
 #BOXPLOT - GENERO Y EDAD
+
 ggplot(df_master, aes(x = genero_norm, y = edad, fill = genero_norm)) +
   geom_boxplot(alpha = 0.7, outlier.colour = "red") +
-  stat_summary(fun = mean, geom = "point", shape = 20, size = 3, color = "black") + # Punto para la media
-  scale_fill_brewer(palette = "Set2") +
+  stat_summary(fun = mean, geom = "point", shape = 20, size = 3, color = "black"
+) + 
+  scale_fill_manual(values = c(
+    "Hombre" = "#87CEEB",     
+    "Mujer" = "#FFC0CB",      
+    "No-binario" = "#BA55D3",  
+    "No especificado" = "#D3D3D3"       
+  )) +
   labs(
     title = "Distribución de Edad por Género",
     subtitle = "Comparativa de medianas y dispersión etaria",
     x = "Género",
-    y = "Edad (años)"
+    y = "Edad (años)",
+    caption = "Fuente: Elaboración propia"
   ) +
   theme_minimal() +
-  theme(legend.position = "none")
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold"),
+    panel.grid.major.x = element_blank() 
+  )
 
 
 #Analisis descriptivo de la muestra Modalidad de contratacion - INDEPENDIENTES VS CONTRATADOS ----
@@ -157,27 +191,30 @@ ggplot(df_master, aes(x = independiente, y = edad, fill = genero_norm)) +
   filter(respuesta == "Si") %>%
   mutate(trastorno = str_replace(trastorno, "tiene_", "")) # Limpiamos el nombre
 
-# Gráfico de barras de frecuencias
-ggplot(df_cormorbilidad, aes(x = reorder(trastorno, trastorno, function(x)-length(x)), fill = trastorno)) +
-  geom_bar() +
-  geom_text(stat='count', aes(label=..count..), vjust=-0.4) +
+ggplot(df_cormorbilidad, aes(x = reorder(trastorno, trastorno, function(x)-length(x)))) + 
+  geom_bar(fill = "steelblue", alpha = 0.8) + 
+  geom_text(stat='count', aes(label=..count..), vjust=-0.4, size = 3.5) +
   labs(title = "Frecuencia de Padecimientos Reportados",
        subtitle = "Basado en diagnósticos y sospechas confirmadas",
        x = "Tipo de Trastorno",
        y = "Cantidad de Casos") +
   theme_minimal() +
-  theme(legend.position = "none")
+  theme(legend.position = "none",
+        axis.text.x = element_text(angle = 45, hjust = 1)) #
 
 #BOX PLOT CORMOBILIDAD POR GENERO (excluyendo no binario y no especificado)
 ggplot(df_master %>% filter(!genero_norm %in% c("No especificado", "No-binario")), 
        aes(x = genero_norm, y = n_trastornos, fill = genero_norm)) +
   geom_boxplot(alpha = 0.7) +
   stat_summary(fun = mean, geom = "point", shape = 20, size = 5, color = "red", fill = "red") +
+  # Acá asignamos celeste (lightblue) y rosado (pink) a cada género
+  scale_fill_manual(values = c("Hombre" = "lightblue", "Mujer" = "pink")) +
   labs(title = "Índice de Comorbilidad por Género",
        subtitle = "Punto rojo indica el promedio de trastornos por persona",
        x = "Género",
        y = "Número de Trastornos Simultáneos") +
-  theme_minimal()
+  theme_minimal() +
+  theme(legend.position = "none")
 
 # Análisis del gráfico: Índice de Comorbilidad por Género
 #
@@ -202,51 +239,70 @@ ggplot(df_master %>% filter(!genero_norm %in% c("No especificado", "No-binario")
 #   los 0 y 2 trastornos, los casos con 3 y 4 trastornos simultáneos se clasifican 
 #   estadísticamente como atípicos (puntos negros por encima del bigote superior).
 
+
 ggplot(df_master, aes(x = genero_norm, y = edad, fill = genero_norm)) +
   geom_boxplot(alpha = 0.7, outlier.color = "red") +
   # Esto crea un gráfico distinto para cada trastorno:
-  facet_wrap(~ trastorno) + 
+  facet_wrap(~ trastorno_actual) + 
   labs(title = "Distribución de Edad por Género y Tipo de Trastorno",
        x = "Género",
        y = "Edad (años)") +
   theme_minimal() +
-  theme(legend.position = "none") # Podés ocultar la leyenda si el eje X ya lo explica
+  theme(
+    legend.position = "none", # Podés ocultar la leyenda si el eje X ya lo explica
+    axis.text.x = element_text(angle = 45, hjust = 1) # Inclina el texto a 45 grados
+  )
 
 
 library(ggplot2)
 library(dplyr)
 library(tidyr)
-library(scales) # Necesaria para formatear los porcentajes
+library(scales) 
 
 # Análisis de Porcentajes Reales por Trastorno
+
 df_master %>%
   select(genero_norm, n_trastornos, tiene_ansiedad, tiene_depresion, tiene_tdah, tiene_estres_pt) %>%
   filter(
-    genero_norm %in% c("Hombre", "Mujer") # Filtro más limpio para quedarnos solo con estos dos
+    genero_norm %in% c("Hombre", "Mujer") 
   ) %>%
   pivot_longer(
     cols = c(tiene_ansiedad, tiene_depresion, tiene_tdah, tiene_estres_pt), 
     names_to = "trastorno", 
     values_to = "presenta"
   ) %>%
-  filter(presenta == "Si") %>% 
   
-  # Calculamos el porcentaje de cada trastorno DENTRO de cada género
+  # Agrupamos por género y trastorno (manteniendo a los que dicen "No" o NA para el total)
   group_by(genero_norm, trastorno) %>%
-  summarise(cantidad = n(), .groups = "drop_last") %>%
-  mutate(porcentaje = cantidad / sum(cantidad)) %>% # Esto da el % relativo por género
+  summarise(
+    # Cuántos dijeron que "Si" (na.rm = TRUE evita errores si hay vacíos)
+    cantidad = sum(presenta == "Si", na.rm = TRUE), 
+    
+    # n() nos da el total exacto de filas (que equivale al total de personas de ese género)
+    total_personas = n(), 
+    
+    # Calculamos la proporción real
+    porcentaje = cantidad / total_personas,
+    
+    .groups = "drop"
+  ) %>% 
   
   ggplot(aes(x = genero_norm, y = porcentaje, fill = genero_norm)) +
   geom_col(color = "black", alpha = 0.8) +
+  
+  # ACÁ ESTÁ EL CAMBIO: Asignamos los colores manualmente
+  scale_fill_manual(values = c("Hombre" = "lightblue", "Mujer" = "pink")) +
+  
   geom_text(aes(label = scales::percent(porcentaje, accuracy = 0.1)), 
             vjust = -0.5, size = 3, fontface = "bold") +
   facet_wrap(~ trastorno) +
+  # limits = c(0, 1) suele ser suficiente si ningún valor supera el 100%
   scale_y_continuous(labels = scales::percent, limits = c(0, 1.1)) +
   labs(
-    title = "Prevalencia de cada Trastorno por Género",
-    subtitle = "Basado en pacientes con al menos 1 diagnóstico",
+    title = "Prevalencia de Trastornos por Género",
+    subtitle = "Porcentaje calculado sobre el total de individuos de cada género",
     x = "Género",
-    y = "Proporción del total de diagnósticos"
+    y = "Proporción sobre el total poblacional"
   ) +
   theme_minimal() +
   theme(legend.position = "none")
