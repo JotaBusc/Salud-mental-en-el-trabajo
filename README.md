@@ -1,6 +1,6 @@
 # Mental Health in Tech: Investigacion exploratoria centrada en la salud mental en el trabajo
 
-Esta simulacion analiza la prevalencia y los determinantes de la salud mental, específicamente la depresión, en trabajadores del sector IT, utilizando el dataset de OSMI. El objetivo es transformar datos crudos en insights accionables para la gestión de Recursos Humanos.
+Esta simulacion analiza la prevalencia y los determinantes de la salud mental, específicamente la depresión, en trabajadores del sector IT, utilizando el dataset de OSMI. El objetivo es transformar datos crudos en informacion para la gestión de Recursos Humanos.
 
 ---
 
