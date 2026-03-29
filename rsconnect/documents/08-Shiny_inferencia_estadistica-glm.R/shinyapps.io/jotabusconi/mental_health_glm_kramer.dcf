@@ -1,0 +1,13 @@
+name: mental_health_glm_kramer
+title: mental_health_glm_kramer
+username: jotabusconi
+account: jotabusconi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17010884
+bundleId: 11777328
+url: https://jotabusconi.shinyapps.io/mental_health_glm_kramer/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes|00_README.md|01_data_curated.R|02_analisis_descriptivo.R|03_inferencia_estadistica_1.1.R|04-shiny.R|05-shiny-analisis.R|06-Shiny_inferencia_estadistica.R|07-shiny-analisis-descriptivo.R|asociacion genero y depresion.png|auxiliarscropy.R|boxplotgeneroedad.png|data_curated.R|Distribucion de edad por Genero y tipo de transtorno.png|distribucion etaria por genero y modalidad 2.png|distribucion etaria por genero y modalidad.png|distribucionedad independientes vs dependientes.png|edaddensity.png|frecuenciapadecimientosreportados.png|frecuencias absolutas generos.png|GENERO.png|heatmap - v de cramer depresion.png|independientesvscontratados.png|indice cormobilidad por genero.png|indicecormobilidadporg.png|matriz de asociacion ansiedad genero.png|prevalencia de transtornos por genero.png|prevalencia de trastornos por genero.png|README.md
