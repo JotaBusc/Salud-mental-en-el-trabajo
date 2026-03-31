@@ -21,7 +21,7 @@ Se confirmó una asociación significativa (**p < 0.001**) entre el género y la
 🔗 **Dashboard:** [Análisis de Inferencia Chi2](https://jotabusconi.shinyapps.io/inferencia_chi2/)
 
 ### 2. Predictores de Comportamiento en mujeres
-La búsqueda de tratamiento resultó ser un predictor más robusto de salud mental que el diagnóstico profesional formal, sugiriendo que la proactividad del empleado es un síntoma crítico.
+La búsqueda de tratamiento resultó ser un predictor más robusto de salud mental que el diagnóstico profesional formal, sugiriendo que la proactividad (en buscar ayuda profesiona) del empleado es un síntoma crítico.
 
 | Variable | Coeficiente (Estimate) | P-value | Significancia |
 | :--- | :---: | :---: | :--- |
